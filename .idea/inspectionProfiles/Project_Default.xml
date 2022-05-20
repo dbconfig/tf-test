@@ -1,0 +1,49 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="uwsgi" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="selenium.webdriver.chrome.options" />
+          <option value="app.models.User.*" />
+          <option value="app.models.Referral.*" />
+          <option value="app.models.Task.*" />
+          <option value="app.models.Payment.*" />
+          <option value="app.models.Notification.*" />
+          <option value="django.db.models.fields.related.ForeignKey.*" />
+          <option value="app.models.Service.*" />
+          <option value="app.models.Rank.*" />
+          <option value="app.models.Sub.*" />
+          <option value="app.models.Power.*" />
+          <option value="app.models.Whitelist.*" />
+          <option value="app.models.QiwiWallet.*" />
+          <option value="app.models.Key.*" />
+          <option value="app.models.Mail.*" />
+          <option value="app.models.Applicant.*" />
+          <option value="dict.*" />
+          <option value="type.with_ui" />
+          <option value="app.models.Resume.*" />
+          <option value="app.models.Skill.*" />
+          <option value="app.models.LanguageProficiency.*" />
+          <option value="app.models.Language.*" />
+          <option value="django.contrib.auth.models.User.*" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+    <inspection_tool class="TodoComment" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>
